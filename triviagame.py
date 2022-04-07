@@ -17,7 +17,7 @@ def answer_check(question, player_answer, score):
         return False
 
 
-def intro_message():
+def game_start():
 
     print("Welcome to the trivia questions! \n")
     print("There are a total of 6 questions, if you're in a pickle and cant figure it out. You can skip a question anytime by typing 'skip'\n")
@@ -37,7 +37,7 @@ def clear():
         _ = system('clear')
 
 # starts the game
-intro_message()
+game_start()
 
 while True:
     score = 0
@@ -53,7 +53,7 @@ while True:
                 score += 1
                 break
     break
-    
+
 clear()
 print(f"Your final score is {score}!\n\n")
 print("Thanks for playing! 💜")
