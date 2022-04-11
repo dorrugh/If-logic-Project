@@ -5,7 +5,7 @@ gameQuestions = {
     },
     2 : {
         "question" : "What famous comic strip was wriitne by Charles Schulz? Choices: Garfield, Peanuts, Blondie, Beetle Bailey " ,
-        "answer" : "Garfield"
+        "answer" : "Peanuts"
     },
     3 : {
         "question" : "Which type of scientist studies and forecasts the weather? Choices: Meteorologist, Astrologist, Astronomer, Biologist ",
